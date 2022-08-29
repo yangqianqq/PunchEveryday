@@ -1,0 +1,17 @@
+h1 {
+  padding: 30px;
+}
+
+ul {
+  li {
+    width: 300px;
+    position: relative;
+    border-bottom: 1px dotted #eee;
+    padding: 4px 0;
+
+    span {
+
+      float: right;
+    }
+  }
+}

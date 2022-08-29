@@ -1,3 +1,20 @@
 .title {
   background: rgb(121, 242, 157);
 }
+
+.logLink {
+  padding: 30px;
+  font-size: 14px;
+  color: #232323;
+  display: flex;
+  align-items: center;
+  &::before {
+    content: '';
+    display: inline-block;
+    border: 6px solid #232323;
+    width: 0px;
+    height: 0px;
+    margin-right: 4px;
+    border-color: transparent transparent transparent #232323;
+  }
+}
